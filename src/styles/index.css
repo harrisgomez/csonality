@@ -14,20 +14,8 @@ body, html {
     align-items: stretch;
 }
 
-.container {
-    border: 2px solid red;
+.header {
     display: flex;
-    justify-content: space-evenly;
-}
-
-.watchlist, .graph {
-    border: 2px solid green;
-}
-
-.watchlist {
-    flex-grow: 1;
-}
-
-.graph {
-    flex-grow: 3;
+    justify-content: center;
+    color: black;
 }
