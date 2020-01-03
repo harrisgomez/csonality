@@ -1,12 +1,22 @@
 import React from 'react';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../styles/App.css';
+
+import { Container, Row, Col } from 'react-bootstrap';
+import Header from '../HeaderContainer/Header';
 
 function App() {
   return (
     <div className="App">
-      <h1>Project hierarchy created.</h1>
-      <h1>All paths updated.</h1>
-      <h1>Let's build some components!</h1>
+      <Container>
+        <Row>
+          <Col>
+            <Header />
+          </Col>
+        </Row>
+      </Container>
+      
     </div>
   );
 }
