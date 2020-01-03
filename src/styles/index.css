@@ -1,0 +1,33 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background: darkslategray;
+    color: white;
+}
+
+.App {
+    border: 2px solid black;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.container {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.watchlist, .graph {
+    border: 2px solid green;
+}
+
+.watchlist {
+    flex-grow: 1;
+}
+
+.graph {
+    flex-grow: 3;
+}
