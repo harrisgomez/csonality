@@ -5,9 +5,9 @@ import { ButtonToolbar, Button } from 'react-bootstrap';
 class Header extends Component {
     render() {
         return (
-            <ButtonToolbar>
-                <Button variant="primary">Primary</Button>
-            </ButtonToolbar>
+            <div class='title'>
+                <h1>CSONALITY</h1>
+            </div>
         );
     }
 }
