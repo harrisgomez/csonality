@@ -17,5 +17,15 @@ body, html {
 .header {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.header > p {
+    font-size: 14px;
+    color: lightgray;
+}
+
+.card-results {
     color: black;
 }
